@@ -1,0 +1,34 @@
+# MATLAB 自动文件
+*.asv
+*.autosave
+*.m~
+*.mlx~
+
+# MATLAB 大型结果
+*.mat
+*.fig
+
+# 图片和临时结果
+*.png
+*.jpg
+*.jpeg
+
+# CSV结果（按需保留）
+*.csv
+
+# 输出目录
+output/
+logs/
+results/
+*_output/
+
+# VSCode / Codex / MATLAB 本地缓存
+.vscode/
+.claude/
+.matlab_prefs/
+.matlab_prefs_temp/
+.matlab_pref_check/
+
+# 系统文件
+.DS_Store
+Thumbs.db
